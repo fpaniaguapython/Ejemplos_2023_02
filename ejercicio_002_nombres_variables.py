@@ -1,0 +1,16 @@
+nombre = "Andrés"
+NOMBRe = "andrÉs-x"
+nOmBrE = "AnDrÉs"
+#3edad = 18 - No puede comenzar por dígito numérico
+edad3 = 18
+ed3d = 18
+#ed$d = 18 - No puede contener 'símbolos raros'
+año = 18
+姓名 = "Fede"
+nom_bre = "Javier"
+nom__bre = "Javier"
+nom__bre_ = "Javier"
+_nom__bre_ = "Javier"
+_ = "Javier"
+__ = "Javier"
+___ = "Javier"
