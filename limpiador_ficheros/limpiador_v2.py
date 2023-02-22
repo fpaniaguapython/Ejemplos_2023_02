@@ -8,12 +8,14 @@ fichero.close()
 
 def limpiar_nombre(nombre_original):
     nombre=nombre_original
-    posicion_la = nombre.find("--la")
-    if posicion_la!=-1:
-        nombre=nombre[:posicion_la]
-    posicion_usa = nombre.find("--USA")
-    if posicion_usa!=-1:
-        nombre=nombre[:posicion_usa]
+
+    #Alternativamente a la solucion limpiador.py aquí se utilizan listas y bucles para no duplicar código    
+    lista_cadenas_inutiles = ["--la","--USA"]
+    for cadena_inutil in lista_cadenas_inutiles:
+        posicion_cadena_inutil = nombre.find(cadena_inutil)
+        if posicion_cadena_inutil!=-1:
+            nombre=nombre[:posicion_cadena_inutil]
+    
     nombre = nombre.replace("-"," ")
     while nombre.find("  ")!=-1:
         nombre = nombre.replace("  "," ")
