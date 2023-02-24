@@ -35,4 +35,11 @@ for fruta in conjunto_de_frutas_comunes:
 ###########
 #difference
 ###########
+frutas_invierno = {"Uva","Manzana","Pera","Naranja","Mandarina"}
+frutas_entretiempo = {"Naranja","Fresa","Plátano","Pera"}
 
+solo_invierno = frutas_invierno.difference(frutas_entretiempo)
+solo_entretiempo = frutas_entretiempo.difference(frutas_invierno)
+
+print("Solo invierno:", solo_invierno)#Uva, Manzana, Mandarina
+print("Solo entretiempo:", solo_entretiempo)#Fresa, Plátano
