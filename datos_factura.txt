@@ -1,2 +1,0 @@
-Fernando Paniagua#C/San Miguel, Alcorcón#fernando.paniagua@gmail.com#B12345678$Philips S.A.U.#Hoyos del Espino#philips@gmail.com#B87654321$Pan,15,1.5#Leche,10,1.75#Cerveza Sin Alcohol,5,0.60
-Fernando Paniagua2#C/San Miguel, Alcorcón#fernando.paniagua@gmail.com#B12345678$Philips S.A.U.2#Hoyos del Espino#philips@gmail.com#B87654321$Pan,15,1.5#Leche,10,1.75#Cerveza Sin Alcohol,5,0.60
